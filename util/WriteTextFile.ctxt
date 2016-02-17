@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=file_name
+comment0.target=WriteTextFile(java.lang.String)
+comment0.text=\r\n\ \ Opens\ the\ provided\ text\ file\ for\ writing.\r\n
+comment1.params=
+comment1.target=boolean\ EOF()
+comment1.text=\r\n\ \ Indicates\ whether\ the\ end\ of\ the\ file\ has\ been\ reached.\ <br>\r\n\ \ <b>Preconditions</b>\:\ None.<br>\r\n\ \ <b>Postconditions</b>\:\ Returns\ true\ if\ the\ end\ of\ the\ file\ has\ been\ reached\ or\ false\ otherwise.<br>\r\n
+comment2.params=line
+comment2.target=void\ writeLine(java.lang.String)
+comment2.text=\r\n\ \ Writes\ a\ line\ of\ text\ to\ a\ file.\ <br>\r\n\ \ <b>Preconditions</b>\:\ The\ line\ of\ text\ to\ be\ written\ supplied\ (not\ null).<br>\r\n\ \ <b>Postconditions</b>\:\ The\ line\ of\ text\ is\ written\ to\ the\ file.<br>\r\n\ \ <b>Throws</b>\:\ FileIOException\ if\ the\ file\ was\ not\ opened\ for\ writing\ or\ a\ problem\ occurs\ during\ writing\ to\ the\ file.<br>\r\n
+comment3.params=
+comment3.target=void\ close()
+comment3.text=\r\n\ \ Closes\ the\ connection\ to\ a\ file.\ <br>\r\n\ \ <b>Preconditions</b>\:\ \ None.<br>\r\n\ \ <b>Postconditions</b>\:\ The\ connection\ to\ the\ file\ is\ closed.<br>\r\n\ \ <b>Throws</b>\:\ FileIOException\ if\ a\ problem\ occurs\ when\ closing\ the\ file.<br>\r\n
+numComments=4
