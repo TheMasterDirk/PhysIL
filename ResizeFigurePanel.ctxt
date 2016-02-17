@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=figure
+comment0.target=ResizeFigurePanel(Figure)
+comment1.params=e
+comment1.target=void\ stateChanged(javax.swing.event.ChangeEvent)
+numComments=2

@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=DrawImportFrame()
+comment1.params=im\ color
+comment1.target=java.awt.Image\ makeColorTransparent(java.awt.image.BufferedImage,\ java.awt.Color)
+comment1.text=\r\n\ Make\ provided\ image\ transparent\ wherever\ color\ matches\ the\ provided\ color.\r\n\r\n\ @param\ im\ BufferedImage\ whose\ color\ will\ be\ made\ transparent.\r\n\ @param\ color\ Color\ in\ provided\ image\ which\ will\ be\ made\ transparent.\r\n\ @return\ Image\ with\ transparency\ applied.\r\n
+comment2.params=x\ y\ rgb
+comment2.target=int\ filterRGB(int,\ int,\ int)
+comment3.params=img
+comment3.target=java.awt.image.BufferedImage\ toBufferedImage(java.awt.Image)
+comment3.text=\r\n\ Type\ casts\ an\ Image\ to\ a\ BufferedImage\r\n\ \r\n\ @param\ img\ the\ Image\ object\r\n\ @return\ img\ the\ BufferedImage\ object\r\n
+numComments=4

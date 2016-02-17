@@ -1,0 +1,85 @@
+area -m²
+amplitude 
+acceleration -m/s²
+magnetic induction -T
+magnetic field density -T
+magnetic flux density -T
+magnetic flux -Wb
+electric potential -V
+capacitance -F
+density -kg/m³
+heat capacity -J/K
+specific heat capacity -J/(kg*K)
+viscous damping coefficient -kg/s
+electric displacement field -C/m²
+electric flux -N*m²/C
+electric flux density -C/m²
+magnetic vector potential 
+distance -m
+displacement -m
+diameter -m
+radius -m
+electric field -N/C
+energy -J
+eccentricity
+force -N
+frequency -Hz
+friction -N
+magnetic field -A/m
+hamiltonian -J
+height -m
+action -Js
+intensity -W/m²
+sound intensity -W/m²
+electric current -A
+moment of inertia -kg*m²
+current density -A/m²
+impulse -kg*m/s
+kinetic energy -J
+wavenumber -R/m
+inductance -H
+luminosity -W
+angular momentum -N*m*s
+length -m
+magnetization -A/m
+moment of force -N*m
+torque -N*m
+mass -kg
+atomic number 
+refractive index
+power -W
+momentum -kg*m/s
+pressure -Pa
+electric charge -C
+heat -J
+electrical resistance -O
+surface area -m²
+entropy -J/K
+arc length -m
+period -s
+thermodynamic temperature -K
+absolute temperature -K
+potential energy -J
+internal energy -J
+relativistic mass -kg
+energy density -J/m³
+voltage -V
+volume -m³
+shear force -N
+velocity -m/s
+mechanical work -J
+speed -m/s
+width -m
+depth -m
+electrical impendance -O
+angular acceleration -R/s²
+coefficient of friction 
+heat capacity ratio
+strain
+stress
+damping ratio
+energy efficiency
+wavelength -m
+permeability (electromagnetism) -H/m
+magnetic moment -A*m²
+angular frequency -R/s

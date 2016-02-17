@@ -1,0 +1,91 @@
+
+1|30|530
+||time|0.315|true|true|true
+||Pi|3.141592653589793|false|false|false
+||area|area|false|false|false
+||amplitude |amplitude|false|false|false
+||acceleration|9.81|true|true|true|-90.00000000000001
+||magnetic induction|magnetic induction|false|false|false
+||magnetic field density|magnetic field density|false|false|false
+||magnetic flux density|magnetic flux density|false|false|false
+||magnetic flux|magnetic flux|false|false|false
+||electric potential|electric potential|false|false|false
+||capacitance|capacitance|false|false|false
+||density|density|false|false|false
+||heat capacity|heat capacity|false|false|false
+||specific heat capacity|specific heat capacity|false|false|false
+||viscous damping coefficient|viscous damping coefficient|false|false|false
+||electric displacement field|electric displacement field|false|false|false
+||electric flux|electric flux|false|false|false
+||electric flux density|electric flux density|false|false|false
+||magnetic vector potential |magnetic vector potential|false|false|false
+||distance|distance|false|false|false
+||displacement|31.157752774699297|false|false|true|44.367135903820696
+||diameter|diameter|false|false|false
+||radius|radius|false|false|false
+||electric field|0.0|false|true|false|0.0
+||energy|energy|false|false|false
+||eccentricity|eccentricity|false|false|false
+||force|force|false|false|false
+||frequency|3.1746031746031744|false|false|true
+||friction|friction|false|false|false
+||magnetic field|0.0|false|true|false|0.0
+||hamiltonian|hamiltonian|false|false|false
+||height|height|false|false|false
+||action|action|false|false|false
+||intensity|intensity|false|false|false
+||sound intensity|sound intensity|false|false|false
+||electric current|electric current|false|false|false
+||moment of inertia|moment of inertia|false|false|false
+||current density|current density|false|false|false
+||impulse|impulse|false|false|false
+||kinetic energy|kinetic energy|false|false|false
+||wavenumber|wavenumber|false|false|false
+||inductance|inductance|false|false|false
+||luminosity|luminosity|false|false|false
+||angular momentum|angular momentum|false|false|false
+||length|length|false|false|false
+||magnetization|magnetization|false|false|false
+||moment of force|moment of force|false|false|false
+||torque|torque|false|false|false
+||mass|mass|false|false|false
+||atomic number |atomic number|false|false|false
+||refractive index|refractive index|false|false|false
+||power|power|false|false|false
+||momentum|momentum|false|false|false
+||pressure|pressure|false|false|false
+||electric charge|electric charge|false|false|false
+||heat|heat|false|false|false
+||electrical resistance|electrical resistance|false|false|false
+||surface area|surface area|false|false|false
+||entropy|entropy|false|false|false
+||arc length|arc length|false|false|false
+||period|period|false|false|false
+||thermodynamic temperature|thermodynamic temperature|false|false|false
+||absolute temperature|absolute temperature|false|false|false
+||potential energy|potential energy|false|false|false
+||internal energy|internal energy|false|false|false
+||relativistic mass|relativistic mass|false|false|false
+||energy density|energy density|false|false|false
+||voltage|voltage|false|false|false
+||volume|volume|false|false|false
+||shear force|shear force|false|false|false
+||velocity|100|true|false|false|45.0
+||mechanical work|mechanical work|false|false|false
+||speed|speed|false|false|false
+||width|width|false|false|false
+||depth|depth|false|false|false
+||electrical impendance|electrical impendance|false|false|false
+||angular acceleration|angular acceleration|false|false|false
+||coefficient of friction |coefficient of friction|false|false|false
+||heat capacity ratio|heat capacity ratio|false|false|false
+||strain|strain|false|false|false
+||stress|stress|false|false|false
+||damping ratio|damping ratio|false|false|false
+||energy efficiency|energy efficiency|false|false|false
+||wavelength|wavelength|false|false|false
+||permeability (electromagnetism)|permeability (electromagnetism)|false|false|false
+||magnetic moment|magnetic moment|false|false|false
+||angular frequency|angular frequency|false|false|false
+||velocityInitial|100.0|true|false|true|45.0
+~

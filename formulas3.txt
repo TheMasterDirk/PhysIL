@@ -1,0 +1,10 @@
+force=electric charge*electric field,electric charge=force/electric field,electric field=force/electric charge
+force=mass*acceleration,mass=force/acceleration,acceleration=force/mass
+kinetic energy=(1/2)*mass*velocity*velocity,mass=(2*kinetic energy)/(velocity*velocity),velocity=sqt[(2*kinetic energy)/mass]
+frequency=1/time
+velocityFinal=velocityInitial+acceleration*time,acceleration=(velocityFinal-velocityInitial)/time,velocityInitial=velocityFinal-acceleration*time
+displacement=velocityInitial*time+acceleration*time*time/2,velocityInitial=(displacement-acceleration*time*time/2)/time,acceleration=2*(displacement-velocityInitial*time)/time/time
+mechanical work=dot[force*distance]
+torque=crs[displacement*force]
+acceleration=der[velocity]
+velocity=der[displacement]

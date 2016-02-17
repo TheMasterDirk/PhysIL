@@ -1,0 +1,46 @@
+Class documentation
+<---- javadoc command: ---->
+C:\Program Files\Java\jdk1.7.0_25\bin\javadoc.exe
+-author
+-version
+-nodeprecated
+-package
+-noindex
+-notree
+-nohelp
+-nonavbar
+-source
+1.7
+-classpath
+C:\Program Files (x86)\BlueJ\lib\bluejcore.jar;C:\Program Files (x86)\BlueJ\lib\junit-4.8.2.jar;C:\Users\Derek\Documents\Senior Thesis
+-d
+C:\Users\Derek\Documents\Senior Thesis\doc
+-encoding
+windows-1252
+-charset
+windows-1252
+-docletpath
+C:\Program Files (x86)\BlueJ\lib\bjdoclet.jar
+-doclet
+bluej.doclet.doclets.formats.html.HtmlDoclet
+C:\Users\Derek\Documents\Senior Thesis\Figure.java
+<---- end of javadoc command ---->
+Loading source file C:\Users\Derek\Documents\Senior Thesis\Figure.java...
+Constructing Javadoc information...
+Standard Doclet version 1.7.0_25
+Building tree for all the packages and classes...
+Generating C:\Users\Derek\Documents\Senior Thesis\doc\Figure.html...
+C:\Users\Derek\Documents\Senior Thesis\Figure.java:527: warning - @param tag has no arguments.
+C:\Users\Derek\Documents\Senior Thesis\Figure.java:527: warning - @param argument "" is not a parameter name.
+C:\Users\Derek\Documents\Senior Thesis\Figure.java:344: warning - @param argument "variable" is not a parameter name.
+Generating C:\Users\Derek\Documents\Senior Thesis\doc\package-frame.html...
+Generating C:\Users\Derek\Documents\Senior Thesis\doc\package-summary.html...
+Generating C:\Users\Derek\Documents\Senior Thesis\doc\constant-values.html...
+Generating C:\Users\Derek\Documents\Senior Thesis\doc\serialized-form.html...
+Building index for all the packages and classes...
+Building index for all classes...
+Generating C:\Users\Derek\Documents\Senior Thesis\doc\allclasses-frame.html...
+Generating C:\Users\Derek\Documents\Senior Thesis\doc\allclasses-noframe.html...
+Generating C:\Users\Derek\Documents\Senior Thesis\doc\index.html...
+Generating C:\Users\Derek\Documents\Senior Thesis\doc\stylesheet.css...
+3 warnings

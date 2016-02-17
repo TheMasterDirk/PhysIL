@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=EnvironmentalPanel()
+comment1.params=
+comment1.target=java.util.ArrayList\ getValues()
+comment1.text=\r\n\ @return\ {gVal,\ gAng,\ eVal,\ eAng,\ mVal,\ mAng}\r\n
+comment2.params=
+comment2.target=java.util.ArrayList\ getOldValues()
+comment3.params=name\ position\ defaultValue\ v\ a
+comment3.target=void\ addField(java.lang.String,\ java.lang.String,\ java.lang.String,\ javax.swing.JTextField,\ javax.swing.JTextField)
+numComments=4

@@ -1,0 +1,36 @@
+#BlueJ class context
+comment0.params=form
+comment0.target=Equation(java.lang.String)
+comment1.params=forms
+comment1.target=Equation(java.util.ArrayList)
+comment10.params=eq2
+comment10.target=java.util.ArrayList\ splitEquation(java.lang.String)
+comment10.text=\r\n\ Splits\ the\ string\ passed\ in\ by\ variables\ and\ symbols\r\n\ \r\n\ @return\ A\ String\ arraylist\ of\ the\ parts\ of\ the\ equation\ (symbols\ &\ parentheses\ included)\r\n
+comment11.params=
+comment11.target=java.util.ArrayList\ splitEquation()
+comment11.text=\r\n\ \r\n\ Splits\ the\ current\ form\ of\ the\ equation\ by\ variables\r\n\ \r\n\ @return\ A\ String\ arraylist\ of\ the\ parts\ of\ the\ current\ equation\ (symbols\ &\ parentheses\ included)\r\n
+comment12.params=f
+comment12.target=int\ countUnknowns(Figure)
+comment13.params=f
+comment13.target=void\ updateComponentForms(Figure)
+comment2.params=
+comment2.target=java.lang.String\ getEq()
+comment3.params=
+comment3.target=java.lang.String\ getEqNoEquals()
+comment4.params=
+comment4.target=java.util.ArrayList\ getEqParts()
+comment5.params=
+comment5.target=java.util.ArrayList\ getCompForms()
+comment6.params=f
+comment6.target=boolean\ isVector(Figure)
+comment6.text=\r\n\ This\ method\ determines\ whether\ or\ not\ he\ base\ equation\ needs\ to\ do\ component\ method\ or\ not\r\n\ \r\n\ @param\ Figure\ f\ A\ figure\ is\ need\ so\ that\ it\ can\ be\ determined,\ based\ off\ figure's\ variables,\ whether\ component\ method\ shall\ be\ use\r\n\ @return\ if\ component\ method\ needs\ to\ be\ used\r\n
+comment7.params=nameOfVar
+comment7.target=void\ switchBase(java.lang.String)
+comment7.text=\r\n\ Switches\ the\ baseEq\ so\ that\ other\ methods\ can\ use\ differnt\ versions\ of\ the\ same\ equation\r\n\ \r\n\ @param\ String\ nameOfVar\ the\ name\ of\ the\ variable\ (in\ the\ eqation)\ used\ to\ determine\ what\ form\ an\ equation\ will\ be\ in\r\n
+comment8.params=
+comment8.target=java.util.ArrayList\ getRequiredVars()
+comment8.text=\r\n\ Gives\ a\ list\ of\ variable\ names\ need\ to\ solve\ an\ equation.\ If\ the\ equation\ has\ any\ constants\ listed\ as\ NUMBERS,\ \r\n\ they\ will\ not\ be\ returned.\ (i.e.\ "Force\=Mass-3"\ will\ return\ ["Force","Mass"])\r\n\ \r\n\ @return\ An\ arraylist\ of\ strings\ that\ correspond\ to\ the\ names\ of\ variables\ needed\r\n
+comment9.params=name
+comment9.target=boolean\ hasVariable(java.lang.String)
+comment9.text=\r\n\ Allows\ the\ user\ to\ check\ if\ this\ equation\ can\ be\ used\ to\ solve\ for\ a\ particular\ variable\r\n\ \r\n\ @param\ name\ -\ the\ name\ of\ the\ variable\ the\ user\ wants\ to\ check\ against\r\n\ @return\ returns\ whether\ the\ equation\ can\ be\ used\ to\ solve\ for\ the\ variable\ the\ user\ wants\r\n
+numComments=14
