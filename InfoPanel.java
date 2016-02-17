@@ -14,9 +14,10 @@ import java.awt.event.MouseEvent;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Scanner;
 import java.text.DecimalFormat;
 import java.io.File;
+
+import util.ReadTextFile;
 
 public class InfoPanel extends JPanel implements MouseListener, KeyListener
 {
@@ -111,18 +112,17 @@ public class InfoPanel extends JPanel implements MouseListener, KeyListener
      */
     public ArrayList<String> getAllAttributes()
     {
-        try{
-            File f = new File("variableNames.txt");
-            Scanner s = new Scanner(f);
-            ArrayList<String> tmp = new ArrayList<String>();
-            String currVar;
-            while(s.hasNextLine())
-            {
-                currVar = s.nextLine();
-                tmp.add(currVar);
-            }
-            return sorted(tmp);
-        }catch(Exception e){e.printStackTrace();return new ArrayList<String>();}
+        ReadTextFile read_file = new ReadTextFile("variableNames.txt");
+        ArrayList<String> tmp = new ArrayList<String>();
+        String currVar = read_file.readLine();
+  
+        while(!read_file.EOF())
+        {
+            tmp.add(currVar);
+            currVar = read_file.readLine();
+        }
+        read_file.close();
+        return sorted(tmp);
     }
 
     public ArrayList<String> sorted(ArrayList<String> array)

@@ -1,6 +1,7 @@
 import java.util.ArrayList;
-import java.util.Arrays;  
-import java.util.Scanner;
+import java.util.Arrays;
+import util.ReadTextFile;
+//import java.util.Scanner;
 import java.io.File;
 
 public class Calculate
@@ -35,17 +36,16 @@ public class Calculate
      */
     public ArrayList<Equation> getFormulasFromFile()
     {
+        ReadTextFile read_file = new ReadTextFile("formulas3.txt");
         ArrayList<Equation> vvv = new ArrayList<Equation>();
-        try
+        
+        String currEq = read_file.readLine();
+        while(!read_file.EOF())
         {
-            Scanner forms = new Scanner(new File("formulas3.txt"));
-            while(forms.hasNext())
-            {
-                String currForm  = forms.nextLine();
-                vvv.add(new Equation(new ArrayList<String>(Arrays.asList(currForm.split(",")))));
-            }
+            vvv.add(new Equation(new ArrayList<String>(Arrays.asList(currEq.split(",")))));
+            currEq = read_file.readLine();
         }
-        catch(Exception e) {e.printStackTrace();}
+        read_file.close();
         return vvv;
     }
 

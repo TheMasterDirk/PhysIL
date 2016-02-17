@@ -5,7 +5,7 @@ import java.awt.GridLayout;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Scanner;
+import util.ReadTextFile;
 
 import java.awt.event.MouseListener;
 import java.awt.event.MouseEvent;
@@ -361,18 +361,22 @@ public class VariableFrame extends JFrame implements KeyListener, MouseListener
      */
     public String findUnits(String name)
     {
-        try{
-            File f = new File("variableNames.txt");
-            Scanner s = new Scanner(f);
-            while(s.hasNextLine())
+        ReadTextFile read_file = new ReadTextFile("variableNames.txt");
+        String[] line = read_file.readLine().split(" -");
+        
+        while(!read_file.EOF())
+        {
+            try
             {
-                String[] n = s.nextLine().split(" -");
-                try{
-                    if(n[0].equals(name))
-                        return n[1];
-                }catch(Exception e){e.printStackTrace();return "";}
-            }
-        }catch(Exception e){e.printStackTrace();}
+                if(line[0].equals(name))
+                {
+                    read_file.close();
+                    return line[1];
+                }
+            }catch(Exception e){e.printStackTrace();return "";}
+            line = read_file.readLine().split(" -");
+        }
+        read_file.close();
         return "";
     }
 
