@@ -33,4 +33,4 @@ Things i've changed
 -CombineVariables mess
 -Variable Frame intiallizing for "Change" (and Variables adding a copy of itself)
 -Container Dealing with fields
--Toolbar + EP Methods Derek is using GIT now
+-Toolbar + EP Methods

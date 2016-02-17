@@ -23,7 +23,7 @@ import java.awt.image.RGBImageFilter;
 import java.awt.image.ImageProducer;
 import java.awt.image.FilteredImageSource;
 
-import java.util.Scanner;
+import util.*;
 import java.util.ArrayList;
 
 public class Figure extends JLabel implements MouseListener, MouseMotionListener
@@ -93,21 +93,15 @@ public class Figure extends JLabel implements MouseListener, MouseMotionListener
     public void getVarsFromFile()
     {
         ArrayList<String> zzz = new ArrayList<String>();
-        String tmp="";
-        try
+        ReadTextFile read_file = new ReadTextFile("variableNames.txt");
+        
+        String tmp = read_file.readLine();
+        while(!read_file.EOF())
         {
-            Scanner forms = new Scanner(new File("variableNames.txt"));
-            while(forms.hasNext())
-            {
-                try{
-                    zzz.add(forms.nextLine());
-                }catch(Exception e){e.printStackTrace();zzz.add(tmp);}
-
-            }
-            forms.close();
+            zzz.add(tmp);
+            tmp = read_file.readLine();
         }
-        catch(Exception e) {e.printStackTrace();}
-
+        read_file.close();
         fileVars = zzz;
     }
 
@@ -447,15 +441,17 @@ public class Figure extends JLabel implements MouseListener, MouseMotionListener
      */
     public ArrayList<String> getAllAttributes()
     {
-        try{
-            File f = new File("variableNames.txt");
-            Scanner s = new Scanner(f);
-            ArrayList<String> tmp = new ArrayList<String>();
-            while(s.hasNextLine())
-                tmp.add(s.nextLine());
-            return tmp;
-        }catch(Exception e){e.printStackTrace();System.out.println("figure.getAllAtributes()");
-            return new ArrayList<String>();}
+        ArrayList<String> tmp = new ArrayList<String>();
+        ReadTextFile read_file = new ReadTextFile("variableNames.txt");
+        
+        String curr_line = read_file.readLine();
+        while(!read_file.EOF())
+        {
+            tmp.add(curr_line);
+            curr_line = read_file.readLine();
+        }
+        read_file.close();
+        return tmp;
     }
 
     public ArrayList<String> getNumericalAttributes()

@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=file_name
+comment0.target=ReadTextFile(java.lang.String)
+comment0.text=\r\n\ \ Opens\ the\ provided\ text\ file\ for\ reading.\r\n
+comment1.params=
+comment1.target=boolean\ EOF()
+comment1.text=\r\n\ \ Indicates\ whether\ the\ end\ of\ the\ file\ has\ been\ reached.\ <br>\r\n\ \ <b>Preconditions</b>\:\ None.<br>\r\n\ \ <b>Postconditions</b>\:\ Returns\ true\ if\ the\ end\ of\ the\ file\ has\ been\ reached\ or\ false\ otherwise.<br>\r\n
+comment2.params=
+comment2.target=java.lang.String\ readLine()
+comment2.text=\r\n\ \ Reads\ in\ a\ line\ of\ text\ from\ a\ file.\ <br>\r\n\ \ <b>Preconditions</b>\:\ None.<br>\r\n\ \ <b>Postconditions</b>\:\ Returns\ a\ string\ with\ the\ next\ line\ of\ text\ from\ the\ file\ or\ null\ if\ the\ end\ of\ the\ file\ has\ been\ reached.<br>\r\n\ \ <b>Throws</b>\:\ FileIOException\ if\ the\ file\ was\ not\ opened\ for\ reading\ or\ if\ a\ problem\ occurs\ when\ reading\ from\ the\ file.<br>\r\n
+comment3.params=
+comment3.target=void\ close()
+comment3.text=\r\n\ \ Closes\ the\ connection\ to\ a\ file.\ <br>\r\n\ \ <b>Preconditions</b>\:\ \ None.<br>\r\n\ \ <b>Postconditions</b>\:\ The\ connection\ to\ the\ file\ is\ closed.<br>\r\n\ \ <b>Throws</b>\:\ FileIOException\ if\ a\ problem\ occurs\ when\ closing\ the\ file.<br>\r\n
+numComments=4
